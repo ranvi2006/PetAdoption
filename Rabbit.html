@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Thumper</title>
+    <!-- +++++++++++++++++++++++++++++++++++++++++ -->
+    <style>
+        body {
+            background-color: rgb(205, 203, 201);
+        }
+
+        img {
+            width: 70vw;
+            height: 50Vh;
+            border-radius: 10px;
+            box-shadow: 10px 10px 25px gray;
+        }
+
+        .info {
+            display: flex;
+        }
+
+        .details {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 30vw;
+            height: 50Vh;
+        }
+
+        h2,
+        h3 {
+            padding: 10px;
+            background-color: rgba(128, 128, 128, 0.235);
+            border-radius: 10px;
+        }
+
+        .policy {
+            
+            font-weight: 700;
+            font-size: medium;
+            line-height: 25px;
+        }
+        button{
+            background-color: rgba(0, 183, 255, 0.552);
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+
+            
+            border-radius: 30px;
+            margin-left: 40px;
+        }
+        @media(max-width:400px){
+            .info{
+                flex-direction: column;
+                height: 40vh;
+                width: 100vw;
+                align-items: center;
+                margin: 0;
+                padding: 0;
+                justify-content: center;
+                align-items: center;
+            }
+            .info img{
+                margin-right: 30px;
+            }
+            .details{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                
+            }
+            .details h3{
+                margin-left: 20px;
+                
+            }
+        }
+    </style>
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+</head>
+
+<body>
+    <div class="container">
+        <div class="info">
+            <img src="./rabbit.jpg" alt="">
+
+            <div class="details">
+                <h2>Name: Thumper </h2>
+                <h3>Age: 6 Months</h3>
+                <h3>sex: Female</h3>
+            </div>
+        </div>
+        <h1>Policy</h1>
+        <div class="policy">
+            <ul>
+                <li>Must be 18+ with proof of residence to apply.</li>
+                <li>Meet the Thumper in person to ensure compatibility.</li>
+                <li>Adoption fees include spaying/neutering, vaccinations, and microchipping.</li>
+                <li>Provide a safe, loving home with proper care.</li>
+                <li>Option to return the dog Cat unable to continue care.</li>
+               
+            </ul>
+            <a href="./Addopdentinfo.html">
+                <button>Proceed</button>
+        </div>
